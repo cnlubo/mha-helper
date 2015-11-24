@@ -16,9 +16,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # -*- coding: utf-8 -*-
+# This is just customized while waiting on approval of the merge requests
+# and creationg of a new version by Ovais
 
 __name__ = 'mha_helper'
-__author__ = 'Ovais Tariq'
-__email__ = 'me@ovaistariq.net'
-__version__ = '0.4.0'
-__url__ = 'https://github.com/ovaistariq/mha-helper'
+__author__ = 'Kenny Gryp'
+__email__ = 'gryp@dakin.be'
+__version__ = '0.4.1'
+__url__ = 'https://github.com/grypyrg/mha-helper'
