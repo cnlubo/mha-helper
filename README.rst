@@ -94,6 +94,8 @@ requires_arping
     Some environments do not need to do anything with ARP caches. Set this to *no* in order to not send those arping commands.
 cluster_interface
     The ethernet interface on the machine that gets the Virtual IP assigned or removed
+kill_after_timeout
+    How many seconds do we want to give the application to close MySQL connections gracefully before killing still active connections on the old master. Set this to *0* to disable waiting and kill all connections immediately.
 
 All the options above can be specified either in the default section or in the host specific sections. Values specified in host specific sections override the values specified in the *default* section.
 
@@ -108,6 +110,7 @@ Let me show you an example configuration file:
     cluster_interface           = eth1
     report_email                = me@ovaistariq.net
     smtp_host                   = localhost
+    kill_after_timeout          = 5
 
     [db10]
     cluster_interface           = eth10
