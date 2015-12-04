@@ -220,3 +220,5 @@ class ConfigHelper(object):
     def get_super_read_only(self):
         return self._host_config['super_read_only']
 
+    def get_read_only_config_file(self):
+        return self._host_config['read_only_config_file']
