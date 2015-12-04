@@ -22,5 +22,5 @@
 __name__ = 'mha_helper'
 __author__ = 'Kenny Gryp'
 __email__ = 'gryp@dakin.be'
-__version__ = '0.4.1'
+__version__ = '0.4.2'
 __url__ = 'https://github.com/grypyrg/mha-helper'
